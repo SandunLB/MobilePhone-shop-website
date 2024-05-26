@@ -1,0 +1,151 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.landing {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.landing img {
+    width: 100%;
+    height: auto;
+}
+
+.landing .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-heading p {
+    font-size: 1.1rem;
+}
+
+.brands {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.brands img {
+    max-width: 100px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+.about img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.services, .categories, .features {
+    margin-bottom: 60px;
+}
+
+.service-item, .category-item, .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-item h3, .category-item h3, .feature-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-item p, .category-item p, .feature-item p {
+    font-size: 1.1rem;
+}
+
+.service-item img, .category-item img {
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item {
+    display: inline-block;
+    width: calc(33.33% - 40px);
+}
+
+.feature-item:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.feature-item:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.1rem;
+}
